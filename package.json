@@ -1,15 +1,11 @@
 {
-  "name": "wiring-pi",
+  "name": "pinode",
   "version": "2.2.1",
-  "description": "Bindings to wiringPi",
-  "main": "lib/exports.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "/bin/bash ./install.sh"
-  },
+  "description": "Raspberry PI bindings through wiringPi",
+  "author": "Gabriel Grijincu <gabriel@grijincu.ro>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WiringPi/WiringPi-Node.git"
+    "url": "git@github.com:gabrielgrijincu/pinode"
   },
   "keywords": [
     "wiringPi",
@@ -19,10 +15,8 @@
     "raspberrypi",
     "bcm2835"
   ],
-  "author": "Igor Soarez <igorsoarez@gmail.com>",
-  "contributors": [
-    "Leandre Gohy <leandre.gohy@hexeo.be>",
-    "Eugene Ware <eugene@noblesamurai.com>"
-  ],
-  "license": "BSD"
+  "main": "lib/exports.js",
+  "scripts": {
+    "install": "/bin/bash ./install.sh"
+  }
 }
